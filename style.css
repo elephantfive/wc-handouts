@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+body>img {
+    flex: 1 1 100%;
+}
+
+.center {
+    margin: 0 5em 0;
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.topbar {
+    border: 1px solid black;
+}
+
+.sidebar-left {
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-left div {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 5px;
+    background: rgba(230, 225, 225, 0.774);
+}
+
+
+.sidebar-left, .sidebar-right {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-flow: column;
+    flex: 0 0 20%;
+    margin: 2em 5em;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 1px;
+    flex: 0 1 100%;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #1885f2;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid white;
+    
+}
+
+main {
+    flex: 0 1 50%;
+}
+
+html {
+    font-family: "arial";
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 6pt 0 6pt;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 12pt 0 6pt;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 12pt 0 6pt;
+}
+
+p,
+li {
+    font-size: 14pt;
+}
+
+footer {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.example {
+    padding: 0 15px;
+    line-height: 2;
+    border: 1px solid blue;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.example p {
+    text-indent: 40px;
+}
+
