@@ -42,8 +42,9 @@ body>img {
 }
 
 button {
+    text-align: left;
     height: fit-content;
-    width: fit-content;
+    width: 150px;
     padding: 10px;
     border: 1px;
     flex: 0 1 100%;
@@ -54,6 +55,10 @@ button {
     margin: 10px;
     border: 1px solid white;
     
+}
+
+button:hover {
+    background: #0a549e;
 }
 
 main {
