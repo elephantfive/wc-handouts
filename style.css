@@ -10,7 +10,7 @@ body>img {
 }
 
 .center {
-    margin: 0 5em 0;
+    margin: 0 5em 1em;
     display: flex;
     flex-flow: nowrap;
 }
@@ -104,11 +104,39 @@ footer {
     padding: 0 15px;
     line-height: 2;
     border: 1px solid blue;
-    margin-bottom: 25px;
     border-radius: 5px;
 }
 
-.example p {
+.indent p {
     text-indent: 40px;
 }
 
+p.block-quote {
+    text-indent: 0;
+    margin-left: 40px;
+}
+
+.sublist {
+    list-style-type: lower-alpha;
+}
+
+.grid {
+    display: grid;
+    grid-template: 125px / 100px 600px;
+    margin: 1.5em;
+    justify-content: center;
+}
+
+.grid>* {
+    background: rgb(181, 192, 243);
+}
+
+.grid>div,
+.grid>ul {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.grid>ul {
+    padding-left: 35px;
+}
