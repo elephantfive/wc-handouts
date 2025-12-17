@@ -37,7 +37,7 @@ body>img {
     height: fit-content;
     width: fit-content;
     flex-flow: column;
-    flex: 0 0 20%;
+    flex: 0 1 20%;
     margin: 2em 5em;
 }
 
@@ -139,4 +139,8 @@ p.block-quote {
 
 .grid>ul {
     padding-left: 35px;
+}
+
+ol + h2 {
+    text-decoration: underline;
 }
